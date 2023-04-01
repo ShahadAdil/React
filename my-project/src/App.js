@@ -2,7 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import HeroImage from './components/HeroImage';
 import Logo from './components/Logo';
-import Products from './components/products';
+import Items from './components/Items';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Logo />
         <NavBar />
         <HeroImage />
-        <Products />
+        <Items />
 
     </div>
   );
