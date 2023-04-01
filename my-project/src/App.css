@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/* Logo component */
+.logo{
+    background-image: url(../src/images/MRCAKE.PNG);
+    height: 120px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(31, 31, 56);
+}
+/* NavBar component */
+ul{
+    background-color: rgb(31, 31, 56);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul li a{
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* HeroImage component */
+.hero-image{
+    background-image: url(../src/images/HeroImage.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Products component */
+.grid-container{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 }
 
-.App-link {
-  color: #61dafb;
+.grid-item{
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+    width: 100%;
+    height: auto;
 }
