@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 
 function Items (){
-    const [items, setItems] = useState([])
+    const [products, setProducts] = useState([])
     useEffect(() => {
     fetch('Products.json',{
         headers:{
@@ -10,7 +10,7 @@ function Items (){
         }
     })
     .then(response => response.json())
-.then(Products => setItems(Products))
+.then(Products => setProducts(Products))
 }, []);
 
   return (
