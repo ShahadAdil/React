@@ -3,15 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavBar () {
   return (
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
+<ul className="nav justify-content-center">
+  <li className="nav-item">
+    <a className="nav-link active" aria-current="page" href="#">BIRTHDAY CAKE BOX</a>
   </li>
-  <li class="justify-content-end">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+  <li className="justify-content-end">
+    <a className="nav-link" href="#">GLAD PÅSK</a>
   </li>
 </ul>
   );
