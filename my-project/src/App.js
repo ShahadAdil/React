@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import HeroImage from './components/HeroImage';
 import Logo from './components/Logo';
 import Items from './components/Items';
-import GladPåsk from './components/GladPåsk'
+// import GladPåsk from './components/GladPåsk'
 
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
         <NavBar />
         <HeroImage />
         <Items />
-        <GladPåsk/>
-        
+        {/* <GladPåsk/> */}
+
 
     </div>
   );
