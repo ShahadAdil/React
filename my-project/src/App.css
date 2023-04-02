@@ -6,6 +6,18 @@
     background-repeat: no-repeat;
     background-color: rgb(31, 31, 56);
 }
+.search{
+    border: white;
+}
+.btn-btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    color: rgb(190, 30, 182);
+    border:rgb(190, 30, 182) 2px solid ;
+    background-color: rgb(31, 31, 56);
+   font-weight: 500;
+}
 /* NavBar component */
 ul{
     background-color: rgb(31, 31, 56);
@@ -27,7 +39,7 @@ ul li a{
 /* Products component */
 .grid-container{
  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+ grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
 }
 
 .grid-item{

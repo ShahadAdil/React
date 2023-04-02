@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
 
 function Items (){
     const [products, setProducts] = useState([])
@@ -18,8 +18,8 @@ function Items (){
   {products.map((product) => (
     <div className='grid-item' key={product.id}>
       <img src={product.image} alt={product.title} />
-      <h3>{product.title}</h3>
-      <p>{product.price} Kr</p>
+      <h2>{product.title}</h2>
+      <h3>{product.price}</h3>
 </div>
   ))}
    </div>
