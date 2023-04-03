@@ -2,7 +2,7 @@ import React from 'react'
 
 function GladPask() {
   return (
-    <div>GladPask</div>
+    <div className='gladpask'>GladPask</div>
   )
 }
 
