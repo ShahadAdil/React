@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter,Link,Route,Routes} from 'react-router-dom';
 import BirthdayCakeBox from './BirthdayCakeBox';
-import GladPåsk from './GladPåsk';
+import GladPask from './GladPask';
 
 function NavBar () {
   return (
@@ -16,7 +16,7 @@ function NavBar () {
   </li>
   <Routes>
     <Route path="/birthdaycakebox" element={<BirthdayCakeBox />}> </Route>
-    <Route path="/gladpåsk" element={<GladPåsk />}></Route>
+    <Route path="/gladpask" element={<GladPask />}></Route>
   </Routes>
   </BrowserRouter>
 </ul>

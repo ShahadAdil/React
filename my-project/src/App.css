@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(31, 31, 56);
+}
 /* Logo component */
 .logo{
     background-image: url(../src/images/MRCAKE.PNG);
