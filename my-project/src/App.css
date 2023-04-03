@@ -1,55 +1,51 @@
-body{
+ * {
     background-color: rgb(31, 31, 56);
 }
+
+h2, h3{
+    color: white;
+}
 /* Logo component */
-.logo{
+/* .logo{
     background-image: url(../src/images/MRCAKE.PNG);
     height: 120px;
     width: 100%;
     background-repeat: no-repeat;
     background-color: rgb(31, 31, 56);
-}
-.search{
+
+.search {
     border: white;
-}
-.btn-btn{
+} */
+
+.btn-btn {
     height: 40px;
     width: 120px;
     border-radius: 30px;
     color: rgb(190, 30, 182);
-    border:rgb(190, 30, 182) 2px solid ;
-    background-color: rgb(31, 31, 56);
-   font-weight: 500;
-}
-/* NavBar component */
-ul{
-    background-color: rgb(31, 31, 56);
-}
-
-ul li a{
-    color: white;
+    border: rgb(190, 30, 182) 2px solid;
+    font-weight: 500;
 }
 
 /* HeroImage component */
-.hero-image{
-    background-image: url(../src/images/HeroImage.webp);
+/* .hero-image {
+    background-image: url(/my-project/public/images/HeroImage.webp);
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
-}
+} */
 
 /* Products component */
-.grid-container{
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-.grid-item{
+.grid-item {
     text-align: center;
 }
 
-img{
+img {
     width: 100%;
     height: auto;
 }
