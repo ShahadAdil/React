@@ -1,61 +1,61 @@
 [
     {
         "id":"1",
-        "image":"../src/images/choklad1.PNG",
+        "image":"images/choklad1.PNG",
         "title":"CHOKLAD BOX 12-BIT",
         "price":"229 Kr"
     },
     {
         "id":"2",
-        "image":"../src/images/choklad2.PNG",
+        "image":"images/choklad2.PNG",
         "title":"BIRTHDAY CAKE BOX-LITEN",
         "price":"295 Kr"
     },
     {
         "id":"3",
-        "image":"../src/images/choklad3.PNG",
+        "image":"images/choklad3.PNG",
         "title":"KOLA&CHOKLAD KULOR (5 ST)",
         "price":"69 Kr"
     },
     {
         "id":"4",
-        "image":"../src/images/choklad4.PNG",
+        "image":"images/choklad4.PNG",
         "title":"2-PACK DRAGERADE MANDLAR",
         "price":"125 Kr"
     },
     {
         "id":"5",
-        "image":"../src/images/choklad5.PNG",
+        "image":"images/choklad5.PNG",
         "title":"3-PACK KOLOR",
         "price":"149 Kr"
     },
     {
         "id":"6",
-        "image":"../src/images/choklad6.PNG",
+        "image":"images/choklad6.PNG",
         "title":"HOT CHOCOLATE (350 G)",
         "price":"115 Kr"
     },
     {
         "id":"7",
-        "image":"../src/images/choklad7.PNG",
+        "image":"images/choklad7.PNG",
         "title":"DIGITALT PRESENTKORT",
         "price":"250 Kr"
     },
     {
         "id":"8",
-        "image":"../src/images/choklad8.PNG",
+        "image":"images/choklad8.PNG",
         "title":"SALTED CARAMEL KOLASÅS",
         "price":"89 Kr"
     },
     {
         "id":"9",
-        "image":"../src/images/choklad9.PNG",
+        "image":"images/choklad9.PNG",
         "title":"LOVE CHOKLADKAKA",
         "price":"75 Kr"
     },
     {
         "id":"10",
-        "image":"../src/images/choklad10.PNG",
+        "image":"images/choklad10.PNG",
         "title":"MINTTRYFFLAR (5 ST)",
         "price":"69 Kr"
     }
