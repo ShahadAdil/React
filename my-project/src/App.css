@@ -1,5 +1,6 @@
  * {
-    background-color: rgb(31, 31, 56);
+    /* background-color: rgb(31, 31, 56); */
+    background-color: rgb(24, 24, 24);
 }
 
 h2, h3, .gladpask, p{
@@ -25,15 +26,18 @@ h2, h3, .gladpask, p{
     border: rgb(190, 30, 182) 2px solid;
     font-weight: 500;
 }
+ul{
+    height: 80px;
+}
 
 /* HeroImage component */
-/* .hero-image {
-    background-image: url(/my-project/public/images/HeroImage.webp);
-    height: 100vh;
+.hero-image img{
+    /* background-image: url(/my-project/public/images/HeroImage.webp); */
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
-} */
+}
 
 /* Products component */
 .grid-container {
@@ -48,7 +52,29 @@ h2, h3, .gladpask, p{
     text-align: center;
 }
 
-img {
+.items-img {
     width: 100%;
-    height: auto;
+    height: 500px;
+    /* box-sizing:content-box; */
+}
+
+/*  */
+.postadress{
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    color: white;
+    border: white 2px solid;
+    font-weight: 600;
+    padding:10px;
+    margin:10px;
+}
+
+.skicka{
+    height: 45px;
+    width: 90px;
+    border-radius: 30px;
+    color: rgb(190, 30, 182);
+    border: rgb(190, 30, 182) 2px solid;
+    font-weight: 700;
 }
