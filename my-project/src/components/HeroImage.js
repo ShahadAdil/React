@@ -1,9 +1,9 @@
 import React from 'react'
 
-const HeroImage = (props) => {
+const HeroImage = () => {
   return (
     <div className='hero-image'>
-        <img src="images/HeroImage.webp" alt="chocolate"></img>
+        <img src="images/HeroImg.PNG" alt="chocolate"></img>
     </div>
   )
 }
