@@ -17,13 +17,10 @@ function NavBar () {
   <li className="justify-content-end">
     <Link to="/about" className="nav-link text-white">About</Link>
   </li>
-  {/* <li className="justify-content-end">
-    <Link to="/gladpask" className="nav-link text-white">GLAD PÅSK</Link>
-  </li> */}
+
 </ul>
  <Routes>
  <Route path="/menu" element={<Menu />}> </Route>
- {/* <Route path="/gladpask" element={<GladPask />}></Route> */}
  <Route path="/home" element={<Home />}></Route>
  <Route path="/about" element={<About />}></Route>
 </Routes>
