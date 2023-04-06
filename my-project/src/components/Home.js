@@ -1,7 +1,8 @@
 // import NavBar from './NavBar';
 import HeroImage from './HeroImage';
 // import Logo from './Logo';
-import Items from './Items';
+// import Items from './Items';
+// import SkickaPostAdress from './SkickaPostAdress';
 
 
 
@@ -9,10 +10,12 @@ import Items from './Items';
 function App() {
     return (
       <div className="App">
+        
           {/* <Logo /> */}
           {/* <NavBar /> */}
           <HeroImage />
-          <Items />
+          {/* <Items /> */}
+          {/* <SkickaPostAdress /> */}
       </div>
     );
   }

@@ -29,7 +29,55 @@ h2, h3, .gladpask, p{
 ul{
     height: 80px;
 }
+ul li  {
+    padding: 20px;
+}
 
+ul li a:hover{
+    box-shadow: 1px 3px 5px  rgb(155, 5, 5);
+    height: 40px;
+    border: none;
+}
+
+.hero-image{
+    position: relative;
+    width: 100%;
+}
+.HeroImg-content h1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    background: none;
+    color: white;
+    /* width: 50%; */
+
+}
+.HeroImg-content h3{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background: none;
+    color: white;
+    /* width: 50%; */
+}
+.HeroImg-content p{
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    background: none;
+    color: white;
+    width: 40%;
+
+}
+.HeroImg-content button{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background: none;
+    color: white;
+    width: 40%;
+    box-shadow: 1px 3px 5px  rgb(155, 5, 5);
+}
 /* HeroImage component */
 .hero-image img{
     /* background-image: url(/my-project/public/images/HeroImage.webp); */
@@ -37,6 +85,7 @@ ul{
     width: 100%;
     background-size: cover;
     background-position: center;
+
 }
 
 /* Products component */
@@ -70,6 +119,12 @@ ul{
     margin:10px;
 }
 
+.line{
+   background-color: rgb(155, 5, 5);
+    box-shadow:  50px  rgb(155, 5, 5);
+    height: 2px;
+    width: 100%;
+}
 .skicka{
     height: 45px;
     width: 90px;
@@ -78,3 +133,48 @@ ul{
     border: rgb(190, 30, 182) 2px solid;
     font-weight: 700;
 }
+
+
+/* FOOTER */
+.footer-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+svg{
+    margin:10px;
+    cursor: pointer;
+    position: relative;
+    left:60px;
+}
+
+
+
+@media (max-width: 450px) {
+    .hero-image img{
+        height: 40vh;}
+
+        /* .text-white{
+            font-size: 12px;
+            padding: 30px;
+            width: 90%;
+        } */
+}
+
+/* @media  ((min-width: 450px)and (max-width: 540px)) {
+    .text-white{
+        font-size: 12px;
+        padding: 30px;
+        width: 60%;
+    }
+}
+
+@media  ((min-width: 300px)and (max-width: 360px)) {
+    .text-white{
+        font-size: 12px;
+        padding: 30px;
+        width: 100%;
+    }
+} */

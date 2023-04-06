@@ -14,6 +14,14 @@ const Menu = () => {
         //     </div>
         // </div>
       <div>
+
+      <div className='container'>
+        <div className='line'></div>
+        <div className='footer container'>
+      <h3 className='text-white'>WE HAVE MEALS AND A SET MENU</h3>
+        </div>
+        </div>
+
          { <Items /> }
       </div>
     )
