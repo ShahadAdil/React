@@ -3,60 +3,70 @@
         "id":"1",
         "image":"images/fish.PNG",
         "title":"A PLATE OF FRIED FISH BRISKET",
-        "price":"429 Kr"
+        "price":"429 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"2",
         "image":"images/salad2.PNG",
         "title":" HEAALTHY VEGAN SALAD",
-        "price":"129 Kr"
+        "price":"129 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"3",
         "image":"images/lunch.PNG",
         "title":"LUNCH SET MENU",
-        "price":"879 Kr"
+        "price":"879 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"4",
         "image":"images/salad.PNG",
         "title":"SALAD WITH CHICKEN AND SESAME",
-        "price":"139 Kr"
+        "price":"139 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"5",
         "image":"images/breakfast.PNG",
         "title":"BREAKFAST SET MENU",
-        "price":"429 Kr"
+        "price":"429 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"6",
         "image":"images/steak.PNG",
         "title":"GRILLED BEEF STEAK",
-        "price":"429 Kr"
+        "price":"429 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"7",
         "image":"images/chicken.PNG",
         "title":"CHICKEN SKEWERS",
-        "price":"359 Kr"
+        "price":"359 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"8",
         "image":"images/chicken2.PNG",
         "title":"GRILLED CHICKEN LEGS IN BARBECUE SAUCE",
-        "price":"149 Kr"
+        "price":"149 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"9",
         "image":"images/burger.PNG",
         "title":"GRILLED LAMB BUNLESS BURGER",
-        "price":"429 Kr"
+        "price":"429 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
         "id":"10",
         "image":"images/steak2.PNG",
         "title":"GRILLED BBQ STEAK SANDWISH",
-        "price":"229 Kr"
+        "price":"229 Kr",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua. Ut enim ad minimveniam, quis nostrud exercitation ullamco laboris nisiut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     }
 ]
