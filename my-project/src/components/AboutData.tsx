@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutS from './AboutS.tsx'
+import AboutS from './AboutProps.tsx'
 
 const AboutData = () => {
   return (
