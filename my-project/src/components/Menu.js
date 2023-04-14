@@ -17,10 +17,10 @@ const Menu = () => {
 
       <div className='container'>
         <div className='line'></div>
-        <div className='footer container'>
-      <h3 className='text-white'>WE HAVE MEALS AND A SET MENU</h3>
+        {/* <div className='footer container'> */}
+      <h3 className='txt text-white'>WE HAVE MEALS AND A SET MENU</h3>
         </div>
-        </div>
+        {/* </div> */}
 
          { <Items /> }
       </div>
