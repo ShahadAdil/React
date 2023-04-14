@@ -4,6 +4,7 @@ import {Link,Route,Routes} from 'react-router-dom';
 import Menu from './Menu';
 import Home from './Home'
 import About from './About';
+import ItemsDetails from './ItemsDetails';
 
 function NavBar () {
   return (<>
@@ -23,6 +24,7 @@ function NavBar () {
  <Route path="/menu" element={<Menu />}> </Route>
  <Route path="/home" element={<Home />}></Route>
  <Route path="/about" element={<About />}></Route>
+ <Route path="/itemsDetails/:id" element={<ItemsDetails />}></Route>
 </Routes>
 </>
   );
