@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 function Items() {
     const [products, setProducts] = useState([])
@@ -14,8 +15,8 @@ function Items() {
     }, [])
     if (null) {
         return (
-            <div className="grid-container">
-                <h1>Helloooooooooo</h1>
+            <div className="grid-container text-white">
+                <h1>An error occurred and will be fixed</h1>
             </div>
         )
     } else {
@@ -23,9 +24,9 @@ function Items() {
             <div className="grid-container">
                 {products.map((product) => (
                     <div className="grid-item" key={product.id}>
-                        {/* <a href="/Product"> */}
+                        <Link to="/itemsDetails/:id">
                             <img src={product.image} alt={product.title} className='items-img'/>
-                        {/* </a> */}
+                        </Link>
                         <h3>{product.title}</h3>
                         <p>{product.price}</p>
                     </div>
