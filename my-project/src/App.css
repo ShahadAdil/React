@@ -125,6 +125,12 @@ ul li a:hover{
     height: 2px;
     width: 100%;
 }
+
+.txt{
+   display: flex;
+   justify-content: center;
+   margin: 40px;
+}
 .skicka{
     height: 45px;
     width: 90px;
@@ -150,6 +156,18 @@ svg{
     left:60px;
 }
 
+/* About */
+.about{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 80vh;
+    top: 60px;
+}
+.about h1 {
+    display: flex;
+    justify-content: center;
+}
 
 
 @media (max-width: 450px) {
@@ -161,16 +179,47 @@ svg{
             padding: 30px;
             width: 90%;
         } */
+        .txt{
+            font-size: 15px;
+        }
 }
 
-/* @media  ((min-width: 450px)and (max-width: 540px)) {
-    .text-white{
+@media (max-width: 300px) {
+ul li  {
+    padding: 8px;
+}
+    .txt{
+        font-size: 10px;
+    }
+}
+
+ @media  (max-width: 414px) {
+    .HeroImg-content button{
+position: relative;
+bottom: 220px;
+    }
+
+    .HeroImg-content h1{
+        position: relative;
+        bottom: 260px;
+        font-size: 20px;
+    }
+
+    .HeroImg-content h3{
+        position: relative;
+        bottom: 260px;
+        font-size: 16px;
+    }
+
+    .HeroImg-content p{
+        position: relative;
+        bottom: 260px;
         font-size: 12px;
-        padding: 30px;
         width: 60%;
     }
 }
 
+/*
 @media  ((min-width: 300px)and (max-width: 360px)) {
     .text-white{
         font-size: 12px;
