@@ -1,5 +1,6 @@
 import React from 'react'
 import  {Link}  from 'react-router-dom';
+// import styled from 'styled-components';
 
 const HeroImage = () => {
 
@@ -32,3 +33,46 @@ alert('Thank you for choosing us...')
 }
 
 export default HeroImage;
+
+// const Img = styled.img`
+// position: relative;
+// height: 80vh;
+// width: 100%;
+// background-size: cover;
+// background-position: center;
+// `
+
+
+// const H1 = styled.h1`
+// position: absolute;
+// top: 40%;
+// left: 10%;
+// background: none;
+// color: white;
+// `
+
+// const H3 = styled.h3`
+// position: absolute;
+// top: 50%;
+// left: 10%;
+// background: none;
+// color: white;
+// `
+// const P = styled.p`
+// position: absolute;
+// top: 56%;
+// left: 10%;
+// background: none;
+// color: white;
+// width: 40%;
+// `
+
+// const Button = styled.button`
+// position: absolute;
+// top: 70%;
+// left: 10%;
+// background: none;
+// color: white;
+// width: 40%;
+// box-shadow: 1px 3px 5px  rgb(155, 5, 5);
+// `

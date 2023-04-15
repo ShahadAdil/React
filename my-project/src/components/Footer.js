@@ -1,12 +1,13 @@
 import React from 'react'
 import FooterContent from './FooterContent'
+// import Styled from 'styled-components'
 
 function Footer ()  {
 
 const footer = '© 2023 Copyright: Brunch.com'
 
   return (
-    <dliv className='container'>
+    <div className='container'>
         <div className='footer-container'>
     <div className='Footer-icons'>
         <FooterContent
@@ -43,8 +44,15 @@ const footer = '© 2023 Copyright: Brunch.com'
         </div>
     </div>
     </div>
-    </dliv>
+    </div>
   )
 }
 
 export default Footer
+
+// const Div = styled.div`
+// display:flex;
+// justify-content: center;
+// align-items: center;
+// color:white;
+// `

@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+// import Styled from 'styled-components'
 
 
 function FooterContent  (props) {
@@ -21,3 +23,10 @@ function FooterContent  (props) {
 }
 
 export default FooterContent
+
+// const Svg = styled.svg`
+// margin:10px;
+// cursor: pointer;
+// position: relative;
+// left:60px;
+// `

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+// import Styled from 'styled-components'
 
 function Items() {
     const [products, setProducts] = useState([])
@@ -37,3 +38,19 @@ function Items() {
 }
 
 export default Items
+
+// const Div = styled.div`
+// display: grid;
+// grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+// padding: 10px;
+// gap: 30px;
+// `
+
+// const Div = styled.div`
+// text-align: center;
+// `
+
+// const Img = styled.img`
+// width: 100%;
+// height: 500px;
+// `

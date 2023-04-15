@@ -1,5 +1,6 @@
 import React from 'react'
 import Items from './Items';
+// import styled from 'styled-components';
 
 const Menu = () => {
     return (
@@ -28,3 +29,15 @@ const Menu = () => {
 }
 
 export default Menu
+
+// const Div = styled.div`
+// background-color: rgb(155, 5, 5);
+// box-shadow:  50px  rgb(155, 5, 5);
+// height: 2px;
+// width: 100%;
+// `
+// const H3 = styled.h3`
+// display: flex;
+// justify-content: center;
+// margin: 40px;
+// `

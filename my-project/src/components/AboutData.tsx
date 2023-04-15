@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutS from './AboutProps.tsx'
+// import styled from 'styled-components'
 
 const AboutData = () => {
   return (
@@ -21,3 +22,11 @@ const AboutData = () => {
 }
 
 export default AboutData
+
+// const Div = styled.div `
+// display: flex;
+// justify-content: center;
+// position: relative;
+// height: 80vh;
+// top: 60px;
+// `
